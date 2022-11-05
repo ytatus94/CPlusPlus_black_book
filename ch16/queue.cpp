@@ -1,3 +1,12 @@
+/*
+queue 常用的方法:
+size
+empty
+front
+back
+push
+pop
+*/
 #include <queue>
 #include <string>
 #include <deque>
