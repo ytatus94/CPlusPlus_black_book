@@ -16,16 +16,16 @@ const int NUMBER_STUDENTS = 4;
 
 int main()
 {
-    vector<double> scores(NUMBER_STUDENTS); # 建立一個叫做 scores 的 vector 容器，內部有 NUMBER_STUDENTS 個 double 型態的元素，目前每個元素都是空的
+    vector<double> scores(NUMBER_STUDENTS); // 建立一個叫做 scores 的 vector 容器，內部有 NUMBER_STUDENTS 個 double 型態的元素，目前每個元素都是空的
 
     double running_sum = 0;
 
-    scores[0] = 89.0; # 這裡為 scores 的每個元素賦予值
+    scores[0] = 89.0; // 這裡為 scores 的每個元素賦予值
     scores[1] = 29.0;
     scores[2] = 59.0;
     scores[3] = 79.0;
 
-    for (unsigned int loop_index = 0; loop_index < scores.size(); loop_index++) # scores.size() 會傳回元素的數目
+    for (unsigned int loop_index = 0; loop_index < scores.size(); loop_index++) // scores.size() 會傳回元素的數目
     {
         running_sum += scores[loop_index];
     }
