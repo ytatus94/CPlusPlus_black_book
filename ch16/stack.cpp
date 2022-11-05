@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-    stack<string, vector<string>> words;
+    stack<string, vector<string>> words; // 基於 vector<string> 建立一個叫做 words 的 stack 容器，容器內的元素資料型態是 string
 
     words.push("C++");
     words.push("from");
