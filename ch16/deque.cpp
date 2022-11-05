@@ -1,3 +1,19 @@
+/*
+deque 常用的方法:
+resize
+assign
+push_back
+push_front
+pop_back
+pop_front
+insert
+clear
+front
+back
+erase
+[]
+at
+*/
 #include <deque>
 #include <string>
 #include <iostream>
