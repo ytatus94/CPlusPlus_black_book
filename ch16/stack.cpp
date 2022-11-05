@@ -1,3 +1,9 @@
+/*
+stack 常用的方法:
+push
+pop
+top
+*/
 #include <stack>
 #include <vector>
 #include <deque>
