@@ -1,3 +1,23 @@
+/*
+list 的常用方法
+resize
+assign
+push_front
+push_back
+pop_front
+pop_back
+insert
+clear
+front
+back
+erase
+splice
+remove_if
+unique
+merge
+sort
+reverse
+*/
 #include <list>
 #include <string>
 #include <iostream>
