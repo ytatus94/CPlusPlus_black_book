@@ -1,5 +1,17 @@
 /*
 和 ch15 的 vector.cpp 一模一樣
+常用的方法:
+push_back
+pop_back
+insert
+clear
+resize
+assign
+front
+back
+erase
+[]
+at
 */
 #include <iostream>
 #include <vector>
