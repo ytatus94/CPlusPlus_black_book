@@ -1,3 +1,10 @@
+/*
+map 的常用方法:
+find
+count
+insert
+[]
+*/
 #include <string>
 #include <map>
 #include <iostream>
