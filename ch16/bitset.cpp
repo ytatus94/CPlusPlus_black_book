@@ -1,3 +1,11 @@
+/*
+bitset 的常用方法
+set
+reset
+flip
+[]
+&=, |=, ^=4
+*/
 #include <iostream>
 #include <bitset>
 using namespace std;
