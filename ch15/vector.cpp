@@ -6,6 +6,7 @@ STL (標準樣版函式庫) 由容器 (containers)，迭代器 (iterators)，函
   algorithms:
   
 vector <class T, class Allocator = allocator<T> >
+vector 容器可用的方法有: back(), clear(), erase(), front(), insert(), pop_back(), push_back(), size()
 */
 
 #include <iostream>
