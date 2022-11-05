@@ -46,21 +46,21 @@ int main()
     friends.push_back(person("Frank", 23));
     friends.push_back(person("Sally", 24));
   
-    # 依人名排序
-    sort(friends.begin(), friends.end());
+    // 依人名排序
+    sort(friends.begin(), friends.end()); // 使用預設的 operator< 排序
   
     cout << "Sorted by name..." << endl;
   
-    for_each(friends.begin(), friends.end(), display);
+    for_each(friends.begin(), friends.end(), display); // 指名 for_each 每個元素要執行 display
   
-    # 用 compare_ages 依年齡排序
-    sort(friends.begin(), friends.end(), compare_ages);
+    // 用 compare_ages 依年齡排序
+    sort(friends.begin(), friends.end(), compare_ages); // 指名要用來排序的函數是 comapre_ages
   
     cout << "Sorted by age..." << endl;
   
     for_each(friends.begin(), friends.end(), display);
   
-    # 洗牌
+    // 洗牌
     random_shuffle(friends.begin(), friends.end());
   
     cout << "Randomly shuffled..." << endl;
