@@ -13,6 +13,7 @@ transform(起點的 iterator, 終點的 iterator, 結果的 iterator, functor)
 #include <vector>
 #include <algorithm>
 #include <iostream>
+#include <iterator>
 using namespace std;
 
 template<class T>
