@@ -1,3 +1,15 @@
+/*
+functor 可以是
+1. 普通的函數
+2. 函數指標
+3. 運算子重載
+
+xxx.assign(起點的指標或 iterator, 終點的指標或 iterator)
+把從起點到終點的所有元素，賦值給 XXX
+
+transform(起點的 iterator, 終點的 iterator, 結果的 iterator, functor)
+把從起點到終點的所有元素經過 functor 轉換後，放到結果裡面去
+*/
 #include <vector>
 #include <algorithm>
 #include <iostream>
@@ -18,8 +30,8 @@ const int NUMBER_ELEMENTS = 8;
 int main()
 {
     int initial_values[NUMBER_ELEMENTS] = {1, 2, 3, 4, 5, 6, 7, 8};
-    vector<int> start(NUMBER_ELEMENTS);
-    start.assign(initial_values, initial_values + NUMBER_ELEMENTS);
+    vector<int> start(NUMBER_ELEMENTS); // 宣告一個叫做 start 的 vector 容器，其中會包含 NUMBER_ELEMENTS 個 int 型態的元素
+    start.assign(initial_values, initial_values + NUMBER_ELEMENTS); // 把 initial_values 的內容賦值給 start
 
     vector<int> result(NUMBER_ELEMENTS);
 
