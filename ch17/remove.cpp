@@ -37,8 +37,8 @@ int main()
     cout << endl;
 
     cout << "Removing the 8: " << endl;
-    vector<int, allocator<int>>::iterator result = remove(vector1.begin(), vector1.end(), 8);
-    vector1.erase(result, vector1.end());
+    vector<int, allocator<int>>::iterator result = remove(vector1.begin(), vector1.end(), 8); // remove() 傳回 iterator
+    vector1.erase(result, vector1.end()); // 這邊才是真的刪掉
 
     copy(vector1.begin(), vector1.end(), ostream_iterator<int, char>(cout, " "));
     cout << endl;
