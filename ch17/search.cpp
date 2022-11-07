@@ -8,8 +8,8 @@ using namespace std;
 
 int main()
 {
-    char * text = "Hello from C++.";
-    char * to_find = "C++";
+    char text[] = "Hello from C++.";
+    char to_find[] = "C++";
 
     char * location = search(text, text + strlen(text), to_find, to_find + strlen(to_find));
 
